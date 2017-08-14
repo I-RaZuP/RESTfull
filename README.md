@@ -43,6 +43,8 @@ En el package.json de nuestra carpeta raiz, agregar el siguiente "script"
 ```bash
  git init
  git remote add origin <HTTPS>   (HTTPS: git remote https://github.com/*.git)
+
+ git add -A
  git commit -m "<miCommit>"   (e.g: <miCommit>: "mi primer commit")
  git push -u origin master
  ```
