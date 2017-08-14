@@ -38,3 +38,12 @@ En el package.json de nuestra carpeta raiz, agregar el siguiente "script"
        }
    ...
 ```
+
+# Subir a github
+```bash
+ git init
+ git remote add origin <HTTPS>   (HTTPS: git remote https://github.com/*.git)
+ git commit -m "<miCommit>"   (e.g: <miCommit>: "mi primer commit")
+ git push -u origin master
+ ```
+ENJOY!!
